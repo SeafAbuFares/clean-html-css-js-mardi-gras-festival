@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="https://media1.thehungryjpeg.com/thumbs2/ori_3734759_0ug9ipcz3qnclvwaw6m0joi2dsx1bss0dm9c3mnr_mardi-gras-logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Contact Page</title>
+</head>
+<body>
+<div class="container-fluid">
+ <nav class="navbar navbar-expand-lg ">
+        <a id="colorLogo" class="navbar-brand" href="/home.html?" style="background-color: white;">
+            <img src="https://media1.thehungryjpeg.com/thumbs2/ori_3734759_0ug9ipcz3qnclvwaw6m0joi2dsx1bss0dm9c3mnr_mardi-gras-logo.jpg" height="50px" width="50">
+        </a>
+    <button class="navbar-toggler navbar-light border border-light" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+    </button>
+ <div class="collapse navbar-collapse" id="navbarScroll">
+    <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+             <li class="nav-item active">
+         <a class="nav-link" href="/home.html?">Home <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+         <a class="nav-link" href="/about.html">About</a>
+             </li>
+             <li class="nav-item">
+         <a class="nav-link" href="/media.html">Media</a>
+             </li>
+             <li class="nav-item">
+         <a class="nav-link" href="/faq.html">FAQ</a>
+             </li>
+             <li class="nav-item">
+         <a class="nav-link" href="/contact.html">Contact</a>
+             </li>
+    </ul>
+ </div>
+ </nav>
+
+                 <br>
+                 <br>
+                 <br>
+
+<form name="myForm">
+    <div class="form-group" >
+           <label for="fName" class="row justify-content-center"><b>FIRST NAME</b></label>
+           <input type="text" class="form-control" id="fName" placeholder="Enter FirstName" required>
+    </div>
+        <div class="form-group">
+             <label for="lName" class="row justify-content-center"><b>LAST NAME</b></label>
+             <input type="text" class="form-control" id="lName" placeholder="Enter LastName" required>
+        </div>
+        <div class="form-group">
+             <label for="emailAdd" class="row justify-content-center"><b>EMAIL ADDRESS</b></label>
+             <input  type="email" class="form-control" id="emailAdd" aria-describedby="emailHelp" placeholder="Enter EmailAddress" required>
+        </div>
+ <small id="emailHelp" class="form-text text-center">We'll never share your details with anyone else.</small>
+                 <br>
+                 <br>
+        
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1" class="row justify-content-center">Textarea, Here you can type what you want...</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+  </div>
+                 
+      <div class="text-center">
+        <button onclick="validateForm()" onclick="myFunction()" type="button" class="border border-dark pt-1 pb-1 ">SAVE</button>
+      </div>
+</form>
+                 <br>
+                 <br>
+
+<h3 class="text-center blockquote p-2">Details about City of New Orleans</h3>
+                 <br>
+<h4 class="text-center blockquote">Location</h4>
+                 <br>
+    <p id="colorLAndEAndPhone" class="text-center blockquote">Location: 1300 Perdido St. 
+    New Orleans, LA 70112
+    </p>
+                 
+<h4 class="text-center blockquote">Gmail/Email</h4>
+                 <br>
+    <p id="colorLAndEAndPhone" class="text-center blockquote">1: jane@mardigrasworld.com, 2: janed@mardigrasworld.com, 3: doej@mardigrasworld.com</p>
+                
+<h4 class="text-center blockquote">Phone Numbers</h4>
+                 <br>
+    <p id="colorLAndEAndPhone" class="text-center blockquote">1: Main (504) 658-4000, 2: Second (504) 361-7821, 3: for contact: Third (504) 724-1983</p>
+
+                 <br>
+<h3 id="colorTextSomeOfH3" class="text-center p-2">About the city</h3>
+    <p class="text-center">New Orleans is a Louisiana city on the Mississippi River, near the Gulf of Mexico. Nicknamed the "Big Easy," it's known for its round-the-clock nightlife, vibrant live-music scene and spicy, singular cuisine reflecting its history as a melting pot of French, African and American cultures. Embodying its festive spirit is Mardi Gras, the late-winter carnival famed for raucous costumed parades and street parties.</p>
+                 <br>
+<h3 id="colorTextSomeOfH3" class="text-center p-2">Port of the city</h3>
+    <p class="text-center">As a port, New Orleans played a major role during the antebellum era in the Atlantic slave trade. The port handled commodities for export from the interior and imported goods from other countries, which were warehoused and transferred in New Orleans to smaller vessels and distributed along the Mississippi River watershed. The river was filled with steamboats, flatboats and sailing ships. Despite its role in the slave trade, New Orleans at the time also had the largest and most prosperous community of free persons of color in the nation, who were often educated, middle-class property owners.</p>
+                 <br>
+<h3 id="colorTextSomeOfH3" class="text-center p-2">Battle of New Orleans</h3>
+    <p class="text-center">During the final campaign of the War of 1812, the British sent a force of 11,000 in an attempt to capture New Orleans. Despite great challenges, General Andrew Jackson, with support from the U.S. Navy, successfully cobbled together a force of militia from Louisiana and Mississippi, U.S. Army regulars, a large contingent of Tennessee state militia, Kentucky frontiersmen and local privateers (the latter led by the pirate Jean Lafitte), to decisively defeat the British, led by Sir Edward Pakenham, in the Battle of New Orleans on January 8, 1815.
+        The armies had not learned of the Treaty of Ghent, which had been signed on December 24, 1814 (however, the treaty did not call for cessation of hostilities until after both governments had ratified it. The U.S. government ratified it on February 16, 1815). The fighting in Louisiana had begun in December 1814 and did not end until late January, after the Americans held off the Royal Navy during a ten-day siege of Fort St. Philip (the Royal Navy went on to capture Fort Bowyer near Mobile, before the commanders received news of the peace treaty).</p>
+                 <br>
+<h4 id="colorHereIsTheMapAndQuiz" class="text-center blockquote p-2">Mardi Gras Quiz</h4>
+                 <br>
+        <form class="text-center" target="_blank" action="/quiz.html">
+             <input class="border border-dark" type="submit" value="PRESS ME to play" />
+        </form>
+                 <br>
+<h4 id="colorHereIsTheMapAndQuiz" class=" text-center blockquote p-2"> THE MAP</h4>
+                 <br>
+
+<div class="map-css">
+<div style="width: 100%"><iframe class="mx-auto d-block map-css" width="411" height="380" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=411&amp;height=380&amp;hl=en&amp;q=Mardi%20Gras%20New%20Orleans%20+(My%20Business%20Name)&amp;t=&amp;z=7&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+</div>
+<footer class="text-center">
+    <div class="container p-1">
+
+    </div>
+  <a id="colorMe" href="https://www.filehorse.com/download-facebook-windows-10" target="_blank" class="fa fa-facebook"></a>
+  <a id="colorMe1" href="https://twitter.en.softonic.com" target="_blank" class="fa fa-twitter"></a>
+        <small class="text-center text-white mt-2">Who built this website? Sayef Abufares</small>
+             <div class="text-center p-1" >
+    © 2021 Copyright:
+    <a class="text-white" href="https://www.pexels.com/search/MARDI%20GRAS/" target="_blank">www.pexels.com</a>
+             </div>
+</footer>
+</div>
+</body>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script defer src="./scripts3/scriptscontact.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</html>

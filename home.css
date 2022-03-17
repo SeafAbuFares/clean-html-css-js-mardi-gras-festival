@@ -1,0 +1,200 @@
+
+.nav-link:hover {
+    background: #0D0D0D;
+    color: #F2F2F2
+  }
+
+  .btn:hover {
+    background: #8CBF3F;
+    color: #F2F2F2
+  }
+
+.navbar-brand:hover {
+    background: #0D0D0D;
+    color: #F2F2F2;
+    padding: auto;
+}
+
+.navbar-toggler:hover {
+    background: #F2F2F2;
+    color: #F2F2F2;
+    padding: auto;
+}
+
+.navbar {
+    background-color: #F2CC0F;
+  }
+
+.navbar-brand {
+    color: #F2F2F2;
+  }
+
+.nav-link{
+    color: #F2F2F2;
+}
+
+div.container-fluid {
+    background-color: #0D0D0D;
+    overflow-x: hidden;
+}
+
+.card-title {
+    color: #0D0D0D;
+}
+
+.card {
+    border-top: 3px solid #F2F2F2;
+}
+
+h1 {
+    color: #9453A6;
+    background-color: #F2F2F2;
+    border-radius: 4px;
+    font-family: 'Henny Penny';
+}
+
+h2 {
+    color: #0D0D0D;
+    background-color: #F2F2F2;
+    font-family: 'Henny Penny'; 
+}
+
+h4 {
+    color: #0D0D0D;  
+    font-family: 'Henny Penny';  
+}
+
+h5 {
+    color: #F2F2F2;
+    font-family: 'Henny Penny';  
+}
+
+section, p {
+    color: #0D0D0D; 
+    font-family: 'Roboto', sans-serif;
+
+  }
+
+.btn {
+    color: #0D0D0D;
+} 
+
+.carousel-item {
+    height: 570px;
+    width: 100%;
+}
+
+h3 {
+    color: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background-color: #F2CC0F;
+    color: #F2F2F2;
+}
+
+
+/* This is the right one */
+/* @media all and (max-width:480px) {
+
+    img {display:block;margin:0 auto;}
+
+    
+ }  */
+
+
+ @media screen and (max-width:480px) {
+
+    #borderMe {display:block;margin:0 auto;}
+    img.d-block {
+        width: 90%;
+    }
+}
+ 
+ @media screen and  (max-width:1200px){
+  #borderMe {
+    
+    
+    width       : 100%;
+    height      : 100%;
+    float: none;
+    left:  60px;
+    
+  }
+}
+
+/* @media (width:0px,480px) {
+
+    #borderMe {display:block;margin:0 auto;}
+}
+ 
+ @media  (max-width:1200px){
+  #borderMe {
+    
+    position    : static;
+    width       : 100%;
+    height      : 100%;
+    position: relative;
+    
+  }
+} */
+
+
+
+
+b {
+    color: #9453A6;
+}
+
+#colorMe {
+    color: #8CBF3F;
+    font-size: 16px;
+  }
+  
+#colorMe1 {
+    color: #9453A6;
+    font-size: 16px;
+  }
+
+.carousel-inner > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 0.5s ease-in-out left;
+    -moz-transition: 0.5s ease-in-out left;
+    -o-transition: 0.5s ease-in-out left;
+    transition: 0.5s ease-in-out left;
+}
+
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+
+#colorLogo {
+     background-color: #0D0D0D;
+ }
+
+#colorContent {
+    color: #0D0D0D;
+}
+
+#colorTheCardsOfTheF {
+    color: #0D0D0D;
+}
+
+#colorText {
+    color: #9453A6;
+}
+
+#borderMe {
+    border: 5px solid #F2F2F2;
+}
+
+
+
+
+
+
+
+

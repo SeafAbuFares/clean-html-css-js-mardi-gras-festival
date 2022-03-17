@@ -1,0 +1,137 @@
+.navbar {
+    background-color: #F2CC0F;
+  }
+
+.nav-link:hover {
+    background: #0D0D0D;
+    color: #f2f2f2
+  }
+  
+.navbar-brand:hover {
+    background: #0D0D0D;
+    color: #f2f2f2;
+    padding: auto;
+  }
+
+.btn {
+    background-color: #F2F2F2;
+  }
+
+.nav-link{
+    color: #F2F2F2;
+}
+
+div.container-fluid {
+    background-color: #0D0D0D;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: #F2CC0F;
+    font-family: 'Henny Penny'; 
+}
+
+h5 {
+    color: #F2F2F2;
+}
+
+p {
+    color: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h3 {
+    color: #0D0D0D;
+    background-color: #F2F2F2;
+    border-radius: 9px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    color: #F2F2F2;
+    padding: 3px;
+    font-size: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-group {
+    color: #F2F2F2;
+}
+
+.navbar-brand {
+    color: #F2F2F2;
+}
+
+footer {
+    background-color: #F2CC0F;
+    color: #F2F2F2;
+}
+
+input {
+    background-color: #8CBF3F;
+    color: #F2F2F2;
+}
+
+
+button {
+    background-color: #F2CC0F;
+}
+
+#colorMe {
+    color: #8CBF3F;
+    font-size: 16px;
+  }
+  
+#colorMe1 {
+    color: #9453A6;
+    font-size: 16px;
+  }
+
+.navbar-toggler:hover {
+    background: #f2f2f2;
+    color: #f2f2f2;
+    padding: auto;
+  }
+  
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  #emailHelp {
+    color: #8CBF3F;
+  }
+
+#colorLogo {
+    background-color: #0D0D0D;
+}
+
+#colorHereIsTheMapAndQuiz {
+    background-color: #F2F2F2;
+    color: #0D0D0D;
+}
+
+#colorLAndEAndPhone {
+    color: #8CBF3F;
+}
+
+iframe {
+    border: solid 3px #8CBF3F;
+  }
+
+#colorTextSomeOfH3 {
+    color: #8CBF3F;
+}
+
+
+
+@media screen and (max-width:480px) {
+
+    div .map-css {
+width: 100% !important;
+    }
+    
+}
