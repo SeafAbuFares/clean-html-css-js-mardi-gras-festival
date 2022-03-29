@@ -110,6 +110,7 @@ footer {
     img.d-block {
         width: 90%;
     }
+
 }
  
  @media screen and  (max-width:1200px){
@@ -122,7 +123,22 @@ footer {
     left:  60px;
     
   }
+
+  .col-sm-1 {
+    margin-right: 32px;
 }
+
+
+}
+
+@media screen and  (min-width:1200px){
+    .col-sm-1 {
+        margin-left: 76px;
+    }
+  
+  }
+
+
 
 /* @media (width:0px,480px) {
 
@@ -190,6 +206,7 @@ b {
 #borderMe {
     border: 5px solid #F2F2F2;
 }
+
 
 
 
