@@ -22,7 +22,7 @@
 }
 
 .navbar {
-    background-color: #F2CC0F;
+    background-color: #206660;
   }
 
 .navbar-brand {
@@ -34,7 +34,7 @@
 }
 
 div.container-fluid {
-    background-color: #0D0D0D;
+    background-color: #b7b7b7;
     overflow-x: hidden;
 }
 
@@ -90,7 +90,7 @@ h3 {
 }
 
 footer {
-    background-color: #F2CC0F;
+    background-color: #206660;
     color: #F2F2F2;
 }
 
